@@ -20,7 +20,7 @@ export NODE_ENV=development
 Start server:
 
 ````
-node_modules/nodemon/bin/nodemon.js server.js
+PORT=3000 node_modules/nodemon/bin/nodemon.js server.js
 ````
 
 Tests:

@@ -3,7 +3,7 @@ restify = require 'restify'
 #init the test client
 client = restify.createJsonClient
   version: '*'
-  url: 'http://127.0.0.1:3000'
+  url: 'http://127.0.0.1:' + process.env.PORT
 
 describe 'GET /trip/<uuid>', ->
 

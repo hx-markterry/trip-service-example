@@ -6,7 +6,7 @@
   "description": "Trip service example",
   "main": "src/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --require should test/controllers"
+    "test": "PORT=8088 ./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --require should test/controllers"
   },
   "dependencies": {
     "restify": "~2.8.2",

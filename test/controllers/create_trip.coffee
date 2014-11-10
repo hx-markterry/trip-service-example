@@ -3,7 +3,7 @@ restify = require 'restify'
 #init the test client
 client = restify.createJsonClient
   version: '*'
-  url: 'http://localhost:3000'
+  url: 'http://localhost:' + process.env.PORT
 
 describe 'POST /trip', ->
 
