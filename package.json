@@ -13,7 +13,7 @@
     "paper-router": "~0.2.9",
     "bunyan": "~1.0.1",
     "iz": "~0.6.0",
-    "trip-service": "git@github.com:holidayextras/trip-service.git"
+    "trip-service": "git+ssh://git@github.com:holidayextras/trip-service.git"
   },
   "devDependencies": {
     "mocha": "~1.21.4",

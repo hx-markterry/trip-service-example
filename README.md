@@ -15,7 +15,6 @@ Set environment:
 ````
 export NODE_PATH=./src
 export NODE_ENV=development
-ln -s ../../src trip-service
 ````
 
 Start server:
